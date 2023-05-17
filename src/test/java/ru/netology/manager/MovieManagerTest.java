@@ -64,7 +64,7 @@ public class MovieManagerTest {
     }
 
     @Test
-    public void test() {
+    public void findLastEqual() {
         MovieManager manager = new MovieManager(5);
         manager.addMovie(movie1);
         manager.addMovie(movie2);
@@ -78,7 +78,7 @@ public class MovieManagerTest {
     }
 
     @Test
-    public void test2() {
+    public void findLastMin() {
         MovieManager manager = new MovieManager(5);
         manager.addMovie(movie1);
         manager.addMovie(movie2);
@@ -90,7 +90,7 @@ public class MovieManagerTest {
     }
 
     @Test
-    public void test3() {
+    public void findLastMax() {
         MovieManager manager = new MovieManager(2);
         manager.addMovie(movie3);
         manager.addMovie(movie4);
